@@ -14,7 +14,7 @@ import numpy as np
 
 
 time_step = 10
-num_individuals = 1000# 个体数
+num_individuals = 5000# 个体数
 a = 0.2# 激活概率(改为activities)
 a_list = []
 alpha = 0.05
@@ -209,4 +209,6 @@ xgi.draw(H)
 
 # 显示图形
 plt.show()
+
+print("分支测试")
                 
